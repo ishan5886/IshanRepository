@@ -1,0 +1,44 @@
+{
+  "name": "UIPathProgs",
+  "description": "UI Path Programs",
+  "main": "Global Exception Handler.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.7.1-ce]",
+    "UiPath.Mail.Activities": "[1.7.1-ce]",
+    "UiPath.PDF.Activities": "[3.1.0]",
+    "UiPath.System.Activities": "[19.10.0-ce]",
+    "UiPath.UIAutomation.Activities": "[19.10.0-ce]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.0.484",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}

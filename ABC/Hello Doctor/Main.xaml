@@ -1,0 +1,344 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="262,294" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="23">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="242,234" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Departments" />
+      <Variable x:TypeArguments="s:String[]" Name="DeptList" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.nimshospital.com/doctor-search/?search=department&amp;nims-doctors=1334">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,568" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'IMG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+              <ui:WaitUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="66196ba57218df7cbde1d6c686ea020a" Selector="&lt;webctrl parentid='top-bar-menu' src='https://i2.wp.com/www.nimshospital.com/wp-content/uploads/2019/0*' tag='IMG' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:WaitUiElementAppear.Target>
+            </ui:WaitUiElementAppear>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:GetFullText IgnoreHidden="{x:Null}" DisplayName="Get Full Text 'SELECT  model'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetFullText_1">
+              <ui:GetFullText.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="356d8871cb24edfb58177618a859a91e" Selector="&lt;webctrl id='model' tag='SELECT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:GetFullText.Target>
+              <ui:GetFullText.Text>
+                <OutArgument x:TypeArguments="x:String">[Departments]</OutArgument>
+              </ui:GetFullText.Text>
+            </ui:GetFullText>
+            <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="s:String[]">[DeptList]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="s:String[]">[Departments.Split(Environment.NewLine.ToCharArray, StringSplitOptions.RemoveEmptyEntries)]</InArgument>
+              </Assign.Value>
+            </Assign>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:OpenBrowser>
+    <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="624,1395" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[DeptList]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="dept" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="588,1261" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If Condition="[not dept.Equals(&quot;Select Department&quot;)]" sap:VirtualizedContainerService.HintSize="546,1063" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence sap:VirtualizedContainerService.HintSize="401,915" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="359,84" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="[&quot;Output Doctor\&quot;+dept.ToString+&quot;\&quot;]" />
+                  <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT  model'" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="[dept.ToString]">
+                    <ui:SelectItem.Items>
+                      <scg:List x:TypeArguments="x:String" Capacity="64">
+                        <x:String>Select Department</x:String>
+                        <x:String>Anaesthesiology</x:String>
+                        <x:String>Ayurveda</x:String>
+                        <x:String>Bariatric Surgery</x:String>
+                        <x:String>Cardiology</x:String>
+                        <x:String>Cardiothoracic Vascular Surgery</x:String>
+                        <x:String>Chemotherapy Unit</x:String>
+                        <x:String>Dermatology</x:String>
+                        <x:String>Developmental Medicine</x:String>
+                        <x:String>Dietary</x:String>
+                        <x:String>Emergency Department</x:String>
+                        <x:String>Endocrinology &amp; Diabetology</x:String>
+                        <x:String>ENT</x:String>
+                        <x:String>Gastroenterology</x:String>
+                        <x:String>General Medicine</x:String>
+                        <x:String>General Surgery</x:String>
+                        <x:String>Gynaecology</x:String>
+                        <x:String>Infectious diseases</x:String>
+                        <x:String>Intensive Care</x:String>
+                        <x:String>Naturopathy</x:String>
+                        <x:String>Neonatology</x:String>
+                        <x:String>Nephrology</x:String>
+                        <x:String>Neuro Surgery &amp; Neurology</x:String>
+                        <x:String>Oncology</x:String>
+                        <x:String>Ophthalmology</x:String>
+                        <x:String>Oral and maxillofacial surgery</x:String>
+                        <x:String>Orthopaedics</x:String>
+                        <x:String>Paediatric surgery</x:String>
+                        <x:String>Paediatrics</x:String>
+                        <x:String>Pathology</x:String>
+                        <x:String>Physiatry &amp; Physiotherapy</x:String>
+                        <x:String>Plastic Surgery</x:String>
+                        <x:String>Prosthodontics</x:String>
+                        <x:String>Psychiatry</x:String>
+                        <x:String>Pulmonology</x:String>
+                        <x:String>Radiology</x:String>
+                        <x:String>Renal Transplantation Unit</x:String>
+                        <x:String>Urology</x:String>
+                      </scg:List>
+                    </ui:SelectItem.Items>
+                    <ui:SelectItem.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="356d8871cb24edfb58177618a859a91e" Selector="&lt;html app='chrome.exe' title='Doctors in Trivandrum | Find Your Doctor | Medical Expert | NIMS*' /&gt;&lt;webctrl id='model' tag='SELECT' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SelectItem.Target>
+                  </ui:SelectItem>
+                  <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="359,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  searchsubmit'" sap:VirtualizedContainerService.HintSize="359,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="6d4bdc5d3b3018ecc2bc81cb65f837c7" Selector="&lt;html app='chrome.exe' title='Doctors in Trivandrum | Find Your Doctor | Medical Expert | NIMS*' /&gt;&lt;webctrl id='searchsubmit' tag='INPUT' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Click.Target>
+                  </ui:Click>
+                  <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="359,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'MAIN'" sap:VirtualizedContainerService.HintSize="359,154" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="pgdn" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="aea304b3f2267adab24166e97e9db92f" Selector="&lt;html app='chrome.exe' title='Doctors in Trivandrum | Find Your Doctor | Medical Expert | NIMS*' /&gt;&lt;webctrl tag='MAIN' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="359,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Departments]" />
+                </Sequence>
+              </If.Then>
+            </If>
+            <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="544,1596" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'Doctorsin Page'" sap:VirtualizedContainerService.HintSize="502,1504" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="4cd199730e3f0f188aa363ed0290118b" Selector="&lt;html app='chrome.exe' title='Doctors in Trivandrum | Find Your Doctor | Medical Expert | NIMS*' /&gt;">
+                <ui:BrowserScope.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1358" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:ExtractData DelayBetweenPagesMS="{x:Null}" NextLinkSelector="{x:Null}" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Structured Data 'SECTION  search-doctors'" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' class='grid-x grid-padding-x search-doctors-content' idx='1'/&gt;&lt;webctrl tag='div' class='cell medium-6 large-4 small-12'/&gt;&lt;webctrl tag='div' class='doctors-block' idx='1'/&gt;&lt;webctrl tag='div' class='doctors-details' idx='1'/&gt;&lt;/row&gt;&lt;column exact='1' name='Doctor Name' attr='text'&gt;&lt;webctrl tag='div' class='grid-x grid-padding-x search-doctors-content' idx='1'/&gt;&lt;webctrl tag='div' class='cell medium-6 large-4 small-12'/&gt;&lt;webctrl tag='div' class='doctors-block' idx='1'/&gt;&lt;webctrl tag='div' class='doctors-details' idx='1'/&gt;&lt;webctrl tag='div' class='dr-titleblk' idx='1'/&gt;&lt;webctrl tag='h3' idx='1'/&gt;&lt;webctrl tag='a' idx='1'/&gt;&lt;/column&gt;&lt;column exact='1' name='Department' attr='text'&gt;&lt;webctrl tag='div' class='grid-x grid-padding-x search-doctors-content' idx='1'/&gt;&lt;webctrl tag='div' class='cell medium-6 large-4 small-12'/&gt;&lt;webctrl tag='div' class='doctors-block' idx='1'/&gt;&lt;webctrl tag='div' class='doctors-details' idx='1'/&gt;&lt;webctrl tag='span' idx='1'/&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="426,106" sap2010:WorkflowViewState.IdRef="ExtractData_2" MaxNumberOfResults="100" SimulateClick="True">
+                        <ui:ExtractData.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="696e4faf2d6f7a472fde67895329a592" Selector="&lt;webctrl tag='SECTION' /&gt;" WaitForReady="COMPLETE">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                          </ui:Target>
+                        </ui:ExtractData.Target>
+                      </ui:ExtractData>
+                      <ui:WriteRange AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="426,115" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="Sheet1" StartingCell="A1" WorkbookPath="[&quot;Output Doctor\&quot;+dept.ToString+&quot;\DrList.xlsx&quot;]" />
+                      <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[ExtractDataTable]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="426,965" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                        <ui:ForEachRow.Body>
+                          <ActivityAction x:TypeArguments="sd:DataRow">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,818" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <Sequence.Variables>
+                                <Variable x:TypeArguments="x:String" Name="DoctorImage" />
+                                <Variable x:TypeArguments="ui:Image" Name="DocImage" />
+                              </Sequence.Variables>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[DoctorImage]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">["&lt;html app='chrome.exe' title='Doctors in Trivandrum | Find Your Doctor | Medical Expert | NIMS*' /&gt;&lt;webctrl aaname='"+row.Item("Doctor Name").ToString+"' parentid='search-doctors' tag='A' /&gt;&lt;nav up='4' /&gt;&lt;webctrl parentid='search-doctors' tag='IMG' /&gt;"]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'IMG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="TakeScreenshot_3" Screenshot="[DocImage]">
+                                <ui:TakeScreenshot.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="4f11111886af41995ff38656dabeff1c" Selector="[DoctorImage]">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:TakeScreenshot.Target>
+                              </ui:TakeScreenshot>
+                              <ui:SaveImage DisplayName="Save Image" FileName="[&quot;Output Doctor\&quot;+dept.ToString+&quot;\&quot;+row.Item(&quot;Doctor Name&quot;).ToString+&quot;.jpg&quot;]" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[DocImage]" />
+                              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'MAIN'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="down" KeyModifiers="None" SpecialKey="True">
+                                <ui:SendHotkey.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ed56677c40dcadc5227d89eb4d25d8da" Selector="&lt;webctrl tag='MAIN' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:SendHotkey.Target>
+                              </ui:SendHotkey>
+                              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'MAIN'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="SendHotkey_5" Key="down" KeyModifiers="None" SpecialKey="True">
+                                <ui:SendHotkey.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ed56677c40dcadc5227d89eb4d25d8da" Selector="&lt;webctrl tag='MAIN' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:SendHotkey.Target>
+                              </ui:SendHotkey>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:ForEachRow.Body>
+                      </ui:ForEachRow>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:BrowserScope.Body>
+              </ui:BrowserScope>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEach.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:ForEach>
+  </Sequence>
+</Activity>

@@ -1,0 +1,175 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="PDFAutomation" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,696" sap2010:WorkflowViewState.IdRef="PDFAutomation_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="21">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="PDFAutomation" sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart.Variables>
+      <Variable x:TypeArguments="x:String" Name="pdfdata" />
+    </Flowchart.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,165.5 170,165.5 170,417 280,417 280,447</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID2</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">20,84.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">120,135.5 120,165.5 300,165.5 300,228.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ReadPDFText DisplayName="Read PDF Text" FileName="C:\Users\Ishan\Desktop\frank_diary.pdf" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="2-4" Text="[pdfdata]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ReadPDFText>
+      <FlowStep.Next>
+        <FlowStep x:Name="__ReferenceID0">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">200,228.5</av:Point>
+              <av:Size x:Key="ShapeSize">200,51</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">300,279.5 300,329.5</av:PointCollection>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[pdfdata]">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:MessageBox>
+          <FlowStep.Next>
+            <FlowStep x:Name="__ReferenceID1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">200,329.5</av:Point>
+                  <av:Size x:Key="ShapeSize">200,51</av:Size>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:WriteTextFile DisplayName="Write Text File" FileName="WritePDFData.txt" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[pdfdata]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:WriteTextFile>
+            </FlowStep>
+          </FlowStep.Next>
+        </FlowStep>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID0</x:Reference>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <FlowStep x:Name="__ReferenceID2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">180,447</av:Point>
+          <av:Size x:Key="ShapeSize">200,66</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">280,513 280,543 160,543 160,213 300,213 300,228.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Screen Scraping" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="ui:GenericValue" Name="WindowsUiCoreCorewin" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'Frank_dia Applicati'" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="d271b69c09f5e9551f7a7bc2c7b293b4" SearchScope="{x:Null}" Selector="&lt;wnd app='applicationframehost.exe' appid='Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge' title='frank_diary.pdf ‎- Microsoft Edge' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
+          <ui:WindowScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                <ui:GetOCRText ContinueOnError="{x:Null}" DisplayName="Get OCR Text 'Windows.UI.Core.CoreWin...'" sap2010:WorkflowViewState.IdRef="GetOCRText_1" WordsInfo="{x:Null}">
+                  <ui:GetOCRText.OCREngine>
+                    <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                      <ActivityFunc.Argument>
+                        <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                      </ActivityFunc.Argument>
+                      <ui:MicrosoftOCR FilterRegion="{x:Null}" ComputeSkewAngle="False" DisplayName="Microsoft OCR" ExtractWords="False" sap2010:WorkflowViewState.IdRef="MicrosoftOCR_1" Image="[Image]" Language="English (United States)" Output="{x:Null}" Profile="Screen" Result="{x:Null}" Scale="1" Text="{x:Null}" />
+                    </ActivityFunc>
+                  </ui:GetOCRText.OCREngine>
+                  <ui:GetOCRText.Target>
+                    <ui:Target Element="{x:Null}" InformativeScreenshot="7da2c3ca9432a0c257929794f434067b" Selector="&lt;wnd cls='Windows.UI.Core.CoreWindow' title='Microsoft Edge' /&gt;">
+                      <ui:Target.ClippingRegion>
+                        <ui:Region Rectangle="399, 257, 340, 156" />
+                      </ui:Target.ClippingRegion>
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:GetOCRText.Target>
+                  <ui:GetOCRText.Text>
+                    <OutArgument x:TypeArguments="ui:GenericValue">[WindowsUiCoreCorewin]</OutArgument>
+                  </ui:GetOCRText.Text>
+                </ui:GetOCRText>
+              </Sequence>
+            </ActivityAction>
+          </ui:WindowScope.Body>
+        </ui:WindowScope>
+      </Sequence>
+      <FlowStep.Next>
+        <x:Reference>__ReferenceID0</x:Reference>
+      </FlowStep.Next>
+    </FlowStep>
+  </Flowchart>
+</Activity>
