@@ -1,0 +1,25 @@
+Push Code to Git and GitHub Repository
+
+1. Install git
+2. Create account on GitHub
+3. Create local git repository for project
+
+    > Go to project directory and open - D:\Python Programs\SeleniumPavanSDET\NopCommerce
+    > Right click and select Git Bash Here option...
+
+4. git init  -> Initialize empty git repository at project location/.git/
+5. Get Repository URL on GitHub - https://github.com/ishan5886/IshanRepository.git
+6. git remote add origin [Github Repository URL] - Connect local git repository with Github repository
+
+       > git remote add origin https://github.com/ishan5886/IshanRepository.git
+
+7. When commiting code to github repo first time need to execute 2 commands:
+
+        git config --global user.name "ishan5886"
+        git config user.email "ishan.dhaliwal@gmail.com"
+
+8. Add all code files into index/staging area(internal memory area)
+
+        git status - Status of files(commited/not committed)
+        clear  - Command to clear screen
+        git add -A

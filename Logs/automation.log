@@ -1,0 +1,277 @@
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 87.0.4280
+INFO:Get LATEST driver version for 87.0.4280
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\87.0.4280.88\chromedriver.exe] found in cache
+INFO:*******************Test_002_DDT_Login***********************
+INFO:*******************Verifying Login Test**********************
+INFO:***Passed*****
+INFO:****LOGIN DDT test passed
+INFO:************** End of Login DDT Test****************
+INFO:**************** Completed  TC_LoginDDT_002 ************* 
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 87.0.4280
+INFO:Get LATEST driver version for 87.0.4280
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\87.0.4280.88\chromedriver.exe] found in cache
+INFO:*******************Test_002_DDT_Login***********************
+INFO:*******************Verifying Login Test**********************
+INFO:***Passed*****
+INFO:***Passed
+INFO:***Passed
+INFO:***Passed
+INFO:****LOGIN DDT test passed
+INFO:************** End of Login DDT Test****************
+INFO:**************** Completed  TC_LoginDDT_002 ************* 
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:There is no [win32] chromedriver for browser 88.0.4324 in cache
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:************* Providing customer info **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:************* Providing customer info **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:************* Providing customer info **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:************* Providing customer info **********
+INFO:************* Saving customer info **********
+INFO:********* Add customer validation started *****************
+INFO:********* Add customer Test Passed *********
+INFO:******* Ending Add customer test **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:************* Providing customer info **********
+INFO:************* Saving customer info **********
+INFO:********* Add customer validation started *****************
+INFO:********* Add customer Test Passed *********
+INFO:******* Ending Add customer test **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* SearchCustomerByEmail_004 **********
+INFO:************* Login succesful **********
+INFO:******* Starting Search Customer By Email **********
+INFO:************* searching customer by emailID **********
+INFO:***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* SearchCustomerByEmail_004 **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* SearchCustomerByName_005 **********
+INFO:************* Login succesful **********
+INFO:******* Starting Search Customer By Name **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* SearchCustomerByName_005 **********
+INFO:************* Login succesful **********
+INFO:******* Starting Search Customer By Name **********
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* SearchCustomerByName_005 **********
+INFO:************* Login succesful **********
+INFO:******* Starting Search Customer By Name **********
+INFO:************* searching customer by Name **********
+INFO:***************  TC_SearchCustomerByName_005 Finished  *********** 
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Login succesful **********
+INFO:************* Login succesful **********
+INFO:************* Login succesful **********
+INFO:******* Starting Add Customer Test **********
+INFO:******* Starting Add Customer Test **********
+INFO:******* Starting Add Customer Test **********
+INFO:************* Providing customer info **********
+INFO:************* Providing customer info **********
+INFO:************* Providing customer info **********
+INFO:************* Saving customer info **********
+INFO:************* Saving customer info **********
+INFO:************* Saving customer info **********
+INFO:********* Add customer validation started *****************
+INFO:********* Add customer validation started *****************
+INFO:********* Add customer validation started *****************
+INFO:********* Add customer Test Passed *********
+INFO:********* Add customer Test Passed *********
+INFO:********* Add customer Test Passed *********
+INFO:******* Ending Add customer test **********
+INFO:******* Ending Add customer test **********
+INFO:******* Ending Add customer test **********
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Verifying Home Page Title***********************
+INFO:*******************Verifying Home Page Title***********************
+INFO:*******************Verifying Home Page Title***********************
+INFO:*******************Test Passed - HomePageTitle***********************
+INFO:*******************Test Passed - HomePageTitle***********************
+INFO:*******************Test Passed - HomePageTitle***********************
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Verifying Login Test**********************
+INFO:*******************Verifying Login Test**********************
+INFO:*******************Verifying Login Test**********************
+INFO:*******************Test Passed - TestLogin***********************
+INFO:*******************Test Passed - TestLogin***********************
+INFO:*******************Test Passed - TestLogin***********************
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Test_003_AddCustomer **********
+INFO:************* Test_003_AddCustomer **********
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Verifying Home Page Title***********************
+INFO:*******************Verifying Home Page Title***********************
+INFO:*******************Verifying Home Page Title***********************
+INFO:*******************Test Passed - HomePageTitle***********************
+INFO:*******************Test Passed - HomePageTitle***********************
+INFO:*******************Test Passed - HomePageTitle***********************
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Test_001_Login***********************
+INFO:*******************Verifying Login Test**********************
+INFO:*******************Verifying Login Test**********************
+INFO:*******************Verifying Login Test**********************
+INFO:*******************Test Passed - TestLogin***********************
+INFO:*******************Test Passed - TestLogin***********************
+INFO:*******************Test Passed - TestLogin***********************
