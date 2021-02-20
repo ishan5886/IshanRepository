@@ -22,4 +22,22 @@ Push Code to Git and GitHub Repository
 
         git status - Status of files(commited/not committed)
         clear  - Command to clear screen
+        git add -A  - Add files to staging area
+
+9. Commit code to git repository(local)
+        git commit -m "first commit"
+
+
+10. Push code from git(local) to github repository
+
+        git push -u origin master
+
+11. To pull latest code from github repo(if file changes are made):-
+
+        git pull
+
+12. If file changed in local git repo and to be pushed on master
+
         git add -A
+        git commit -m "Second commit"
+        git push -u origin master
