@@ -275,3 +275,45 @@ INFO:*******************Verifying Login Test**********************
 INFO:*******************Test Passed - TestLogin***********************
 INFO:*******************Test Passed - TestLogin***********************
 INFO:*******************Test Passed - TestLogin***********************
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_win32.zip
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:Driver has been saved in cache [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96]
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:====== WebDriver manager ======
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Current google-chrome version is 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Get LATEST driver version for 88.0.4324
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache
+INFO:Driver [C:\Users\InTel\.wdm\drivers\chromedriver\win32\88.0.4324.96\chromedriver.exe] found in cache

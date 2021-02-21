@@ -41,3 +41,30 @@ Push Code to Git and GitHub Repository
         git add -A
         git commit -m "Second commit"
         git push -u origin master
+
+
+
+--------------------------------------------JENKINS--------------------------------------------------
+
+1. Launch Jenkins URL :- http://localhost:8080/
+2. Click on New Item
+3. Enter item name....Select Freestyle Project
+4. Add Description (Optional)
+5. In Source Code Management select Git
+6. Add GitHub Repository URL
+7. In Branches to build specify branch if other than master
+8. Click on Build->Add Build Step-> Execute Windows Batch Command
+9. Give name of .bat file containing pytest run commands or directly write command in it
+10. From Dashboard select Build Now
+11. Before clicking Build Now do some configurations
+
+
+*************Specify git path at Jenkins > Manage Jenkins > Global Tool Configuration > Git
+******************** Path is C:\Program Files\Git\bin[if local system]
+
+
+
+
+
+
+
